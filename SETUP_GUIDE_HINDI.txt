@@ -1,0 +1,39 @@
+STUDYVAULT - EASY SETUP (WINDOWS)
+=================================
+
+1. ZIP ko Extract All karo.
+2. Extracted folder kholo.
+3. START_STUDYVAULT.bat par double-click karo.
+4. Pehli baar packages automatically install honge.
+5. Browser khud http://localhost:3000 khol dega.
+
+OWNER LOGIN
+-----------
+Email: admin@studyvault.local
+Password: StudyVault@2026!
+
+Admin dashboard kholne ke liye Home page par "Owner Login" dabao.
+Login ke baad:
+- files upload karo
+- files delete karo
+- course/subject select karo
+- password change karo
+
+IMPORTANT
+---------
+Password change karne ke baad naya password safe jagah par rakho.
+
+AGAR START FILE NA CHALE
+------------------------
+Folder ke andar address bar me cmd likhkar Enter karo, phir:
+    npm install
+    npm start
+
+Phir browser me kholo:
+    http://localhost:3000
+
+PUBLIC WEBSITE BANANE KE LIYE
+-----------------------------
+Ye package local use ke liye ready hai. Internet par live karne se pehle
+hosting par environment variables set karna aur persistent storage use karna
+zaroori hai. .env ko GitHub par upload mat karna.
